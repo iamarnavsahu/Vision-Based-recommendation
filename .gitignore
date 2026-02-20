@@ -1,0 +1,54 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Virtual environments
+.venv/
+venv/
+env/
+.conda/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Project-specific: large data directories (don't commit raw datasets)
+mood_dataset/
+data_256/
+data/
+checkpoints/
+runs/
+
+# Keep results (plots, metrics) but not model weights
+results/*.pth
+
+# Music files
+music_library/*.mp3
+music_library/*.wav
+music_library/*.flac
+music_library/*.ogg
+
+# Logs
+*.log
+tensorboard_logs/
+
+# Places365 categories file (downloaded at runtime)
+categories_places365.txt
