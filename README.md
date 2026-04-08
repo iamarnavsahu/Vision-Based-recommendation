@@ -125,14 +125,3 @@ ece176-project/
 
 ---
 
-## Future Work: RAGA AI Pivot
-
-After ECE 176, the mood classifier becomes the vision engine for RAGA AI:
-
-- Replace music lookup → [MusicGen](https://github.com/facebookresearch/audiocraft) (Meta's open-source music generation)
-- Add temporal mood mapping (mood changes over time in a video)
-- Fine-tune generation on cinematic music (documentary, travel, short film styles)
-- Build direct visual conditioning (bypass text prompts entirely)
-
-The core insight: the same **vision → mood** pipeline built here becomes the generation
-condition for original, royalty-free, AI-composed scores — no licensing issues at all.
