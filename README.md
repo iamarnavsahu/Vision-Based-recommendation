@@ -1,4 +1,4 @@
-# ECE 176 Final Project: Vision-Based Music Recommendation
+# ECE 176 Final Project( RAGA AI): Vision-Based Music Recommendation
 
 **Arnav Sahu — UC San Diego**
 
